@@ -27,6 +27,13 @@
 # Core Deployment Overview
 
 ## Installing Active Directory on DC-1  
+
+What I did:
+
+Installed Active Directory Domain Services (AD DS) on a Windows Server.
+
+Created a new domain and promoted the server to a domain controller.
+
 <img width="785" height="564" alt="image" src="https://github.com/user-attachments/assets/e402d1ee-2c2a-495e-a278-2f09742a56d5" />
 
 
@@ -41,6 +48,13 @@ Skills demonstrated:
 
 
 ## Creating Admin and Employee OUs  
+
+What I did:
+
+Created Organizational Units (OUs) for Admins and Employees.
+
+Structured user accounts within these OUs for easier management and policy assignment.
+
 <img width="758" height="529" alt="image" src="https://github.com/user-attachments/assets/bd08954f-a039-4042-a1f3-47fe05f491cb" />
 
 
@@ -54,6 +68,12 @@ Skills demonstrated:
 • Understanding how AD separates groups of users  
 
 ## Creating a Domain Admin Account (jane_admin)  
+What I did
+
+Created a dedicated domain administrator account instead of using the built-in Administrator.
+
+Assigned appropriate privileges and tested login with elevated credentials.
+
 <img width="412" height="533" alt="image" src="https://github.com/user-attachments/assets/e90c7103-0b1b-4919-aaad-c8316655d012" />
 <img width="409" height="536" alt="image" src="https://github.com/user-attachments/assets/16ebce72-f26f-457a-a2eb-756557d9ef96" />
 <img width="757" height="530" alt="image" src="https://github.com/user-attachments/assets/0b0385d2-d128-4481-bc69-d0df8f1225a3" />
@@ -70,6 +90,12 @@ Skills demonstrated:
 
 
 ## Joining Client -1 to the Domain  
+What I did
+
+Configured the client machine’s network settings to join the domain.
+
+Verified the computer object in Active Directory and placed it in the correct OU.
+
 <img width="328" height="419" alt="image" src="https://github.com/user-attachments/assets/08a7f1c4-1c9a-47eb-95aa-7cbe018e3e58" />
 <img width="754" height="528" alt="image" src="https://github.com/user-attachments/assets/c59dc5cd-68bb-410a-8f87-b799c187f9d8" />
 
@@ -85,7 +111,13 @@ Skills demonstrated:
 • Moving devices into proper OUs  
  
 
-## Allowing Remote Desktop for Domain Users  
+## Allowing Remote Desktop for Domain Users 
+
+What I did
+
+Configured Remote Desktop settings to allow domain users access without giving full admin rights.
+
+Applied user permissions and tested remote connections.
 <img width="1201" height="935" alt="image" src="https://github.com/user-attachments/assets/d337c333-e400-41e1-b47b-d902a570d9ec" />
 <img width="1204" height="935" alt="image" src="https://github.com/user-attachments/assets/2fc2614d-6447-4fe5-ba64-86622fe716ec" />
 
@@ -102,6 +134,13 @@ Companies often require remote access for employees. Setting this correctly ensu
 
 
  ## Bulk User Creation with PowerShell  
+
+ What I did
+
+Wrote and ran PowerShell scripts to create multiple users from a CSV file.
+
+Assigned users to the correct OUs and applied standardized naming conventions.
+
 <img width="1536" height="954" alt="image" src="https://github.com/user-attachments/assets/ae34ad41-0f03-4dbb-b2fb-609ccc084b0f" />
 
 
