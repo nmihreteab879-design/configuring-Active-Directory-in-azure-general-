@@ -4,7 +4,6 @@
 
 # Active Directory Deployment
 
-This project covers installing Active Directory, creating the domain structure, setting up admin and user accounts, and joining a workstation to the domain. Instead of documenting every single click, this write-up focuses on the key configurations that matter in real environments—identity management, permissions, domain structure, and workstation integration.
 
 ## Environments and Technologies Used
 - Microsoft Azure (Virtual Machines)
